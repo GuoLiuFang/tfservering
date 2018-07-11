@@ -34,7 +34,8 @@ import sys
 
 import tensorflow as tf
 
-import mnist_input_data
+#import mnist_input_data
+from tensorflow.contrib.learn.python.learn.datasets import mnist as mnist_input_data
 
 tf.app.flags.DEFINE_integer('training_iteration', 1000,
                             'number of training iterations.')
